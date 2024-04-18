@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arithmetic</h2>
+
+<h2>Adding</h2>
+<p>A typical arithmetic operation takes two numbers (or variables) and produces a new number.</p>
+<p id="add"></p>
+
+<p>The addition operator (+) adds numbers:.</p>
+<p id="sub"></p>
+
+<p>The multiplication operator (*) multiplies numbers.</p>
+<p id="multi"></p>
+
+<p>The division operator (/) divides numbers.</p>
+<p id="divide"></p>
+
+<p>The modulus operator (%) returns the division remainder.</p>
+<p id="remainder"></p>
+
+<p>The ++ Operator</p>
+<p id="increm"></p>
+
+<p>The decrement operator (--) decrements numbers.</p>
+<p id="decrem"></p>
+
+
+<script>
+let a = 100;
+let b = 50;
+let x = a + b;
+document.getElementById("add").innerHTML = x;
+
+let c = 5;
+let d = 2;
+let e = c - d;
+document.getElementById("sub").innerHTML = e;
+
+let w = 5;
+let y = 2;
+let z = w * y;
+document.getElementById("multi").innerHTML = z;
+
+let f = 10;
+let g = 2;
+let h = f / g;
+document.getElementById("divide").innerHTML = h;
+
+let j = 5;
+let k = 2;
+let l = j % k;
+document.getElementById("remainder").innerHTML = l;
+
+//Increments
+
+let m = 5;
+m++;
+let n = m;
+document.getElementById("increm").innerHTML = n;
+
+let o = 5;
+o--;
+let p = o;
+document.getElementById("decrem").innerHTML = p;
+
+</script>
+
+</body>
+</html>
